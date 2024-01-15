@@ -1,9 +1,12 @@
-import pefile
 import csv
+
+import pefile
+
 
 def fileExtract(data):
     print("Extracting the PE information of the file...")
-    header =["AddressOfEntryPoint","MajorLinkerVersion","MajorImageVersion","MajorOperatingSystemVersion","DllCharacteristics","SizeOfStackReserve","NumberOfSections","ResourceSize","IfMalware"]
+    header = ["AddressOfEntryPoint", "MajorLinkerVersion", "MajorImageVersion", "MajorOperatingSystemVersion",
+              "DllCharacteristics", "SizeOfStackReserve", "NumberOfSections", "ResourceSize", "IfMalware"]
     with open('inputData.csv', 'w', encoding='UTF8', newline='') as f:
         writer = csv.writer(f)
 
@@ -20,8 +23,7 @@ def fileExtract(data):
         f = str(pe.OPTIONAL_HEADER.SizeOfStackReserve)
         g = str(pe.FILE_HEADER.NumberOfSections)
         h = str(pe.OPTIONAL_HEADER.DATA_DIRECTORY[2].Size)
-        i = " " # zararlı bilgisini gösterir.
-        inputData = [a,b,c,d,e,f,g,h,i]
+        i = " "  # zararlı bilgisini gösterir.
+        inputData = [a, b, c, d, e, f, g, h, i]
         writer.writerow(inputData)
     print("The file was successfully extracted.")
-

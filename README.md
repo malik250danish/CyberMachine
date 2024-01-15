@@ -6,15 +6,16 @@
 
 <h2 align="left">About The Project 📰</h2>
 
- Detects cyber threats to the end user with machine learning. This tool can do malware analysis of given exe file, spam analysis of given url and mail.
- 
+Detects cyber threats to the end user with machine learning. This tool can do malware analysis of given exe file, spam
+analysis of given url and mail.
+
 
 <br>
 <!-- INSTALL -->
 <h2 align="left">Installation ⏳</h2>
 
 * Clone the repo
- 
+
 ```sh
 git clone https://github.com/emr4h/CyberMachine.git
 ```
@@ -23,21 +24,21 @@ git clone https://github.com/emr4h/CyberMachine.git
 <!-- GETTING STARTED -->
 <h2 align="left">Getting Started 🕵️‍♂️</h2>
 
- * Go to the CyberMachine folder:
+* Go to the CyberMachine folder:
+
 ```sh
 cd CyberMachine
 ```
 
- * Please upload requirements
+* Please upload requirements
 
 ```sh
 pip3 install requirements.txt
 ```
- 
+
 <br>
 <!-- USAGE EXAMPLES -->
 <h2 align="left">Usage 👨🏻‍💻</h2>
-
 
 * Then you can access the help menu with the command below:
 
@@ -80,17 +81,19 @@ https://user-images.githubusercontent.com/60710585/163436436-95537447-eb14-4c8a-
 <!-- Details -->
 <h2 align="left">Details 👀</h2>
 
-If you are curious about the machine learning applications, success rates and analysis approaches used in the project, you can review my repositories below.
+If you are curious about the machine learning applications, success rates and analysis approaches used in the project,
+you can review my repositories below.
 
 <br>
 * Malware Analysis with Machine Learning
- 
+
    ```sh
    https://github.com/emr4h/Malware-Detection-Using-Machine-Learning
    ```
+
 <br>
 * Spam Analysis with Machine Learning
- 
+
    ```sh
    https://github.com/emr4h/Spam-Email-and-Url-Detection-Using-Machine-Learning 
    ```
@@ -99,7 +102,7 @@ If you are curious about the machine learning applications, success rates and an
 <!-- Support -->
 <h2 align="left">Support 🎗</h2>
 
-If you like the project, please give a star ⭐️ and don't forget to buy me a coffee ☕️ 
+If you like the project, please give a star ⭐️ and don't forget to buy me a coffee ☕️
 
 <p align="left"><a href="https://www.buymeacoffee.com/emr4h"> <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="emr4h" /></a></p><br>
 
